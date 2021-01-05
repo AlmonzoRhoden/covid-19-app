@@ -7,7 +7,7 @@
 
 ![Tablet](https://user-images.githubusercontent.com/61447353/97652037-e5716400-1a33-11eb-82fc-003e0dc4a35e.PNG)
 
-![Desktop](https://user-images.githubusercontent.com/61447353/97765519-c8e33380-1ae8-11eb-8f41-890e1b033923.PNG)
+![Desktop](https://user-images.githubusercontent.com/61447353/97765519-c8e33380-1ae8-11eb-8f41-890e1b033923.PNG).
 
 
 <h2> Application descripition </h2>
