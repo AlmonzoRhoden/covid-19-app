@@ -1,7 +1,7 @@
 
 <h1 align = "center" > Covid-19 App </h1>
 
-<h2>Screenshot of Deployed application on various devices<h2>
+<h2>Preview of Deployed application on various devices<h2>
   
 ![Phone](https://user-images.githubusercontent.com/61447353/97649953-02efff00-1a2f-11eb-93fa-e3024f1ab428.PNG)
 
@@ -10,7 +10,7 @@
 ![Desktop](https://user-images.githubusercontent.com/61447353/97765519-c8e33380-1ae8-11eb-8f41-890e1b033923.PNG)
 
 
-<h2> Descripition </h2>
+<h2> Application descripition </h2>
 
 <strong> Project Description </strong>
 
@@ -41,4 +41,4 @@ Team Contribution History <br>
 https://github.com/rquiroz32/Covid-19_TestingApp/graphs/contributors
 
 
-<h2> Link to deployed application <h2> : https://almonzorhoden.github.io/covid-19-app/
+<h2> Deployed application <h2> : https://almonzorhoden.github.io/covid-19-app/
