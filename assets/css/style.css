@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+@media only screen and (min-width: 992px) {
+    
+    .topnav a{
+      font-size:40px !important;
+    }
+
+    #search-box{
+      width: 30% !important;
+    }
+
+  }
+
+*{
+    box-sizing: border-box;
+    margin: auto 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+ /* Zo's container */
+.container-fluid{
+    width: 100%;
+    padding:30px;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid yellow;
+}
+
+/* Nav bar code start- do not touch */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+ 
+  
+  .topnav {
+    overflow: hidden;
+    background-color:lightseagreen;
+    position: relative;
+  }
+  
+
+  
+  .topnav a {
+    /*float: left; */
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  .topnav a.icon {
+      background-color: white;
+    float: right;
+    border:1px solid black;
+    padding:20px;
+  }
+  
+  .topnav a:hover {
+    color: yellow;
+  }
+  
+  .active {
+    background-color: lightseagreen;
+    color: white;
+  }
+  /* Nav bar code - do not touch */
+
+h3{
+    color: white;
+    text-align: center;
+
+}
+
+.flagLogo{
+    width:20%;
+    border: none;
+    border-radius: 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border: 1px solid yellow;
+    border-radius: 20px;
+}
+
+#search-box{
+
+    border: 3px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    background-color: white;
+    color: black;
+    height: 35px;
+}
+
+.topnav{
+    font-weight: bold;
+}
+
+#search-button{
+    border-radius: 10px;
+     
+}
+
+.divide-page{
+    border-top: 2px solid gray;
+}
+
+li{
+    color:yellow;
+    list-style-type: circle !important;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+span{
+    font-weight: bold;
+    color: yellow;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    color:yellow;
+    font-size:16px;
+}
+
+.color-here{
+    color:yellow;
+}
+
+.modal{
+  background-color: lightseagreen;
+
+}
+ 
+p{
+  font-size: 16px;
+}
+

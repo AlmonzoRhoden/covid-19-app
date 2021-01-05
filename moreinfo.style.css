@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+@media only screen and (min-width: 992px) {
+  .topnav a{
+    font-size:40px !important;
+  }
+
+} 
+
+*{
+    box-sizing: border-box;
+    margin: auto 0;
+    font-family: 'Roboto Condensed', sans-serif; 
+    
+}
+ /* Zo's container */
+.container-fluid{
+    width: 100%;
+    padding:30px;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid yellow;
+}
+
+/* Nav bar code start- do not touch */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ 
+  
+  .topnav {
+    overflow: hidden;
+    background-color:lightseagreen;
+    position: relative;
+  }
+  
+.topnav a:hover {
+    color: yellow;
+  }
+  
+  .topnav a {
+    /* float: left; */
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
+  .topnav a.icon {
+    background-color: white;
+    float: right; 
+    border:1px solid black;
+    padding:20px;
+  }
+
+  
+  .active{
+    background-color: lightseagreen;
+    color: white;
+  }
+  /* Nav bar code - do not touch */
+
+h3{
+    color: white;
+    text-align: center;
+
+}
+
+.flagLogo{
+    width:20%;
+}
+
+.photo {
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 50px;
+    padding: 20px; 
+
+}
+
+
+.topnav{
+    font-weight: bold;
+}
+
+
+.divide-page{
+    border-top: 2px solid gray;
+}
+
+li{
+    color:yellow;
+    list-style-type: none !important;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+
+span {
+    font-weight: bold;
+    color: yellow;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    color:yellow;
+    font-size:16px;
+}
+
+h4{
+  color: Yellow; 
+  margin-top: 80px; 
+
+}
+
+
+.color-here{
+    color:yellow;
+    font-size: 20px;
+}
+
+#myVideo {
+ width: 200px;
+ height:200px;
+}
+
+/* JuliaFrances css */
+.par {
+   font-size: 20px; 
+   margin-top: 10px; 
+}
+
+.FAQ { 
+   font-size: 20px; 
+   margin-top: 10px; 
+
+}
+
+#covid ul{
+list-style: none;
+
+}

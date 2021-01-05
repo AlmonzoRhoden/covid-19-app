@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Material UI-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!--Import materialize.css-->
+
+  <!-- Material Icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Almonzo's aka Zo's CSS-->
+  <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--FontAwesome -Materlize-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!--Zo's-favicon-->
+  <link rel="icon" href="./assets/images/favicon.jpg" type="image/gif" sizes="16x16">
+  <title>NJ Covid-19 | Testing App</title>
+</head>
+
+<body>
+
+  <div class='container-fluid'>
+    <div class='row'>
+      <!--Row 1, Col 12-->
+      <div class='col s12 center-align'>
+
+        <div class="topnav">
+          <a href="#home" class="active"><img class='flagLogo' src='./assets/images/logo.gif' alt='logoImage'></a>
+          <div id="myLinks">
+            <a href="./moreInfo.html">More Info</a>
+          </div>
+
+          </a>
+        </div>
+        <br>
+        <br>
+        <div><h3 class = 'center-align'>NJ Covid-19 <br> <span>Get Testing</span> App</h3></div>
+      </div>
+    </div>
+    <div class='row'>
+      <!--Row 2, Col 6-->
+      <div class='col s12 col m6 col l6 col xl6 '>
+        <form>
+
+
+          <br> 
+          <input id="search-box" type='text' placeholder='Enter valid zipcode' required> 
+          &nbsp;
+
+          <!-- Modal Trigger-1 -->
+    <a id = "errorMessage" i class="waves-effect waves-light btn modal-trigger" >Search<i
+    class="material-icons right">search</i></a>
+
+
+    <!-- Modal Structure-1 -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+    <h4 style='font-weight: bold;' >Error !!!</h4>
+    <p style='color:yellow'>Please enter a valid United States zip code, it must be 5 numeric digits with no special characters or space.</p>
+    </div>
+    <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+    <h4 style='font-weight: bold;' >LOADING RESULTS... !!!</h4>
+    <p style='color:yellow'>Please stand by :] .</p>
+    </div>
+    <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  
+          
+        </form>
+
+          
+          
+<p>An application where you can get information on where to get tested for COVID-19
+, including facility information, documentation needed, and test results in order to stop the spread of this pandemic.</p>  
+
+        </form>
+        <br>
+
+      </div>
+      <!--Row 2, Col -->
+      <div class='col s12 col m6 col l6 col xl6 '>
+        <img class='mapImage' src='./assets/images/buildingImg.jpg' alt='mapImage'>
+        <!--Backend team, can integrate API code here how they see fit-->
+      </div>
+    </div>
+
+
+    <div class='divide-page'> <br>
+      <!--Splitting content-->
+
+      <div class='row'>
+        <div class='col s12 col m6 col l6 col xl6 '>
+          <h4>What to bring:</h4>
+          <ul>
+            <li id='list'>Passport or driver license</li>
+            <li id='list'>Health Insurance, if you have it</li>
+            <li id='list'>Medical records</li>
+            <li id='list'>Face mask and a pen</li>
+            <li>Parental guardian, if under the age of 18</li>
+          </ul>
+          
+          <br>
+
+          <p><strong>Notice:</strong> For more details on what to bring, rules, and expectations click <strong><a href='./moreInfo.html'> <span class='color-here'>here</span></a></strong></p>
+          
+          <br>
+
+        </div>
+
+        <div class='col s12 col m6 col l6 col xl6 '>
+          <img src='./assets/images/itemsImg.jpg' alt='items to bring'>
+        </div>
+      </div>
+
+      <div class='divide-page'> <br>
+
+        <div class='row'>
+          <div class='col s12 col m6 col l6 col xl6 '>
+            <h4>Already got tested for Covid-19?</h4>
+
+            <p><strong><span class='color-here'>Notice:</span></strong> If you've been tested for Covid-19 already, it will take 5 to 7 business days to
+              recieve results in your email, be sure to check your spam folder. Remember to self quartine for 14 days if Covid-19 positive.</p>
+
+              <br>
+              
+          </div>
+
+
+          <div class='col s12 col m6 col l6 col xl6 '>
+            <img src='./assets/images/resultsImg.jpg' alt='results-image'>
+
+          </div>
+
+          <div class='row'>
+            <div class="col s12 col m12 col l12 col xl12">
+              <br>
+              <footer>&#169; 2020 Team Four, Project One</footer>
+            </div>
+          </div>
+
+
+        </div>
+
+        <!--JavaScript at end of body for optimized loading-->
+
+
+        <!-- David comment - I don't think we need this script below in the index.html.  This can be used in the results.html only.  -->
+        <!-- <script type="text/javascript" src="./assets/script/script.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        
+
+        <!--Adding jquery and a separate js file for ajax calls-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+        <script type="text/javascript" src="./assets/script/script.js"></script>
+
+        <script type="text/javascript" src="backend_script.js"></script>
+
+
+</body>
+
+</html>
