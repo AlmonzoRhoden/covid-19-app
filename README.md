@@ -1,5 +1,5 @@
 
-<h1 align = "center" > Covid-19 App </h1>
+<h1 align = "center" > Covid-19 App</h1>
 
 <h2>Preview of Deployed application on various devices<h2>
   
